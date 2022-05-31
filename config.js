@@ -3,7 +3,7 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['6285601142988', '�5�9�5�5�0�4�5�0�0�1�0�1', true]
+  ['6285601142988', 'MyOwner', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = ['6285601142988'] // Want some help?
@@ -28,8 +28,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'Fara-Md'
-global.author = 'By Kelvin'
+global.packname = 'Whatsapp Bot'
+global.author = 'Me2k Glowing'
 
 global.multiplier = 69 // The higher, The harder levelup
 
@@ -37,32 +37,32 @@ global.rpg = {
   emoticon(string) {
     string = string.toLowerCase()
     let emot = {
-      level: '🎖︄1�7',
-      limit: '🎳',
-      health: '❤️',
-      exp: '✉️',
-      money: '💰',
-      potion: '🥤',
-      diamond: '💎',
-      common: '📦',
-      uncommon: '🎁',
-      mythic: '🗳︄1�7',
-      legendary: '🗃︄1�7',
-      pet: '🎁',
-      trash: '🗑',
-      armor: '🥼',
-      sword: '⚔️',
-      wood: '🪵',
-      rock: '🪨',
-      string: '🕸︄1�7',
-      horse: '🐎',
-      cat: '🐈',
-      dog: '🐕',
-      fox: '🦊',
-      petFood: '🍖',
-      iron: '⛓️',
-      gold: '👑',
-      emerald: '💚'
+      level: 'ðŸŽ–ï¸„1¤7',
+      limit: 'ðŸŽ³',
+      health: 'â¤ï¸',
+      exp: 'âœ‰ï¸',
+      money: 'ðŸ’°',
+      potion: 'ðŸ¥¤',
+      diamond: 'ðŸ’Ž',
+      common: 'ðŸ“¦',
+      uncommon: 'ðŸŽ',
+      mythic: 'ðŸ—³ï¸„1¤7',
+      legendary: 'ðŸ—ƒï¸„1¤7',
+      pet: 'ðŸŽ',
+      trash: 'ðŸ—‘',
+      armor: 'ðŸ¥¼',
+      sword: 'âš”ï¸',
+      wood: 'ðŸªµ',
+      rock: 'ðŸª¨',
+      string: 'ðŸ•¸ï¸„1¤7',
+      horse: 'ðŸŽ',
+      cat: 'ðŸˆ',
+      dog: 'ðŸ•',
+      fox: 'ðŸ¦Š',
+      petFood: 'ðŸ–',
+      iron: 'â›“ï¸',
+      gold: 'ðŸ‘‘',
+      emerald: 'ðŸ’š'
     }
     let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
     if (!results.length) return ''
